@@ -1,0 +1,9 @@
+---
+- name: just a testing
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: copy shell script to remote server
+      copy:
+        src: ./test.sh
+        dest: ~/
