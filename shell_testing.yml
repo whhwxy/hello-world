@@ -7,3 +7,5 @@
       copy:
         src: ./test.sh
         dest: ~/
+    - name: starting patch for linux
+      shell: sh ~/test.sh
